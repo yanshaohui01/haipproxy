@@ -626,7 +626,7 @@ CRAWLER_TASKS = [
         'task_queue': SPIDER_GFW_TASK,
         'parse_type': 'xroxy',
         'interval': 60,
-        'enable': 1,
+        'enable': 0,
     },
     {
         'name': 'proxylistplus',
@@ -658,7 +658,7 @@ CRAWLER_TASKS = [
         'task_queue': SPIDER_AJAX_GFW_TASK,
         'parse_type': 'cnproxy',
         'interval': 60,
-        'enable': 1,
+        'enable': 0,
     },
     {
         'name': 'free-proxy.cz',
@@ -666,7 +666,7 @@ CRAWLER_TASKS = [
         'task_queue': SPIDER_AJAX_GFW_TASK,
         'parse_type': 'free-proxy',
         'interval': 3 * 60,
-        'enable': 1,
+        'enable': 0,
     },
     {
         'name': 'proxy-list.org',
